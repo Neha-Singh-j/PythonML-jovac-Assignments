@@ -1,0 +1,1 @@
+In this task got to flipkart web page and search mobile and get data of 2 to 3 pages using requests and beautify soup
