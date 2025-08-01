@@ -1,0 +1,59 @@
+Part I : : Naive Bayes Classifier
+
+
+Task 1: Theory Questions
+
+1. What is the core assumption of Naive Bayes?
+    Ans. Naive Bayes assumes that all features (input variables) are independent of each other given the class label. This means the presence of one feature does not influence the presence of another, which is rarely true in reality but simplifies computation and often works well in practice.
+
+2. Differentiate between GaussianNB, MultinomialNB, and BernoulliNB.
+
+    Ans. GaussianNB is used when features are continuous and assumes they follow a Gaussian (normal) distribution.
+    
+    MultinomialNB is suited for discrete features, like word counts or term frequencies in text classification.
+    
+    BernoulliNB is used for binary features where features are either 0 or 1 (e.g., word present or not in a document).
+
+3. Why is Naive Bayes considered suitable for high-dimensional data?
+     Ans. Naive Bayes is fast, memory-efficient, and requires only a small amount of training data. Its simplicity and the independence assumption allow it to perform well in high-dimensional spaces like text classification, where the number of features (e.g., words) can be very large.
+
+
+Part II: Decision Trees
+
+
+Task 4: Conceptual Questions
+
+1. What is entropy and information gain?
+
+    Ans. Entropy measures the impurity or randomness in the dataset. If all elements belong to one class, entropy is 0 (pure); otherwise, it increases.
+    
+    Information Gain is the reduction in entropy after a dataset is split on an attribute. It helps in selecting the best feature for a split in a decision tree.
+
+2. Explain the difference between Gini Index and Entropy.
+
+    Ans. Gini Index measures impurity based on the probability of a random sample being misclassified. It’s faster to compute and tends to create simpler trees.
+    
+    Entropy uses logarithmic measures and is slightly more computationally intensive. It may produce more balanced splits.
+
+3. How can a decision tree overfit? How can this be avoided?
+Ans. Decision trees can overfit when they grow too deep and model noise or outliers in training data. To avoid this:
+    
+    Use pruning,Limit max_depth,Set min_samples_split or min_samples_leaf,Use cross-validation.
+
+Part III: Ensemble Learning – Bagging, Boosting, Random Forest
+
+
+Task 7: Conceptual Questions
+1. What is the difference between Bagging and Boosting?
+
+    Ans. Bagging (Bootstrap Aggregating) trains multiple models independently using different subsets of data and averages the results. It aims to reduce variance.
+
+        Boosting trains models sequentially, where each model focuses on correcting the errors of the previous ones. It reduces bias and builds stronger learners.
+
+2. How does Random Forest reduce variance?
+    Ans. Random Forest builds multiple decision trees on different bootstrapped samples and selects splits using a random subset of features. By averaging their results, it reduces overfitting and variance compared to a single decision tree.
+
+3. What is the weakness of boosting-based methods?
+    Ans. Boosting methods are sensitive to noise and outliers, as they give higher weights to misclassified points. They can overfit if not properly regularized or if too many iterations are used.
+
+
