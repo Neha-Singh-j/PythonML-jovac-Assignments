@@ -4,7 +4,7 @@ This repository contains a collection of assignments completed as part of the **
 
 ---
 
-### 📂 Assignment 1: NumPy & Pandas Basics
+### 📂 Assignment 1: (repo named assign2 amd 3 ) NumPy & Pandas Basics
 
 **Objective:** Build a strong foundation in NumPy and Pandas for numerical computation and data manipulation.
 
@@ -28,7 +28,7 @@ This repository contains a collection of assignments completed as part of the **
 
 ---
 
-### 📂 Assignment 2: Linear & Logistic Regression
+### 📂 Assignment 2:(repo named assign 4)  Linear & Logistic Regression
 
 **Objective:** Understand and apply linear and logistic regression for prediction and classification tasks.
 
@@ -55,7 +55,7 @@ This repository contains a collection of assignments completed as part of the **
 
 ---
 
-### 📂 Assignment 3: Naive Bayes, Decision Trees & Ensemble Methods
+### 📂 Assignment 3:(repo named Assignment5) Naive Bayes, Decision Trees & Ensemble Methods
 
 **Objective:** Implement classical classification models and ensemble techniques.
 
